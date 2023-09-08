@@ -1,0 +1,81 @@
+h2 {
+    display:none;
+}
+
+aside {
+    background: rgb(50, 107, 44);
+    font-size: 120%;
+    padding: 5px 0px;
+    text-align: center;
+    width: 100%
+}
+
+aside a {
+    color: white;
+    display: block;
+    padding: 5px 0;
+    text-decoration: none;
+}
+
+aside a:hover {
+    background-color: #8bd9c7;
+    color: white;
+
+}
+
+aside a:focus {
+    background-color: black;
+    color: white;
+    outline: none;
+}
+
+
+article {
+    background-color: rgb(50, 107, 44);
+    color:white;
+    font-size: 120%;
+    padding: 2px;
+}
+
+article a {
+    color:white;
+    padding: 5px;
+    text-decoration: none;
+}
+
+article a:hover {
+    background-color: white;
+    color: black;
+}
+
+article a:focus {
+    background-color: white;
+    color:black;
+    outline: none;
+}
+
+#main_image {
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+
+    main {
+        display: flex;
+    }
+
+    aside {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        float: left;
+        width: 30%;
+    }
+    
+    section {
+        display:inline;
+        float: right;
+        width: 70%;
+    }
+    
+}    

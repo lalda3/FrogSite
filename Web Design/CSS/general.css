@@ -1,0 +1,9 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #87ae73;
+	font-family: Century Gothic, Helvetica, sans-serif;
+	margin: 0;
+}
